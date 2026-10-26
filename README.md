@@ -4,3 +4,4 @@ Proyecto 2º DAM - IES Doctor Balmis
 
 ## Miembros del equipo
 - Izan Catalá (@IzanCGBalmis)
+- Andrea Sarmiento (@Andreaafornes)
