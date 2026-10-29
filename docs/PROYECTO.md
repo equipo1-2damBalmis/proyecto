@@ -25,6 +25,10 @@
 
 Este proyecto se alinea directa y explícitamente con los siguientes Objetivos de Desarrollo Sostenible de las Naciones Unidas, tal como se requiere en la programación didáctica:
 
+**ODS 9 – Industria, innovación e infraestructura:** construir infraestructuras resilientes, promover una industrialización inclusiva y sostenible y fomentar la innovación.
+
+**ODS 10 – Reducción de las desigualdades:** reducir la desigualdad dentro de los países y entre ellos, garantizando la igualdad de oportunidades y la inclusión de todas las personas sin importar su edad, sexo, origen, religión o situación económica.
+
 
 ### Descripción del Problema
 ---
