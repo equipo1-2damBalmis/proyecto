@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="comunify-c4" name="Contenedores C4">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="boundary" value="Comunify [Sistema]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;strokeColor=#666666;verticalAlign=top;align=left;spacingLeft=15;spacingTop=5;fontStyle=1;fontSize=14;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="25" y="200" width="950" height="410" as="geometry"/>
+        </mxCell>
+        <mxCell id="benef" value="&lt;b style=&quot;font-size:16px&quot;&gt;Beneficiario&lt;/b&gt;&lt;br&gt;[Persona]&lt;br&gt;&lt;br&gt;Vecino / propietario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="220" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="admin" value="&lt;b style=&quot;font-size:16px&quot;&gt;Administrador&lt;/b&gt;&lt;br&gt;[Persona]&lt;br&gt;&lt;br&gt;Presidente de la comunidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="710" y="50" width="220" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="android" value="&lt;b style=&quot;font-size:16px&quot;&gt;App Android Vecino&lt;/b&gt;&lt;br&gt;[Contenedor: Kotlin, Jetpack Compose]&lt;br&gt;&lt;br&gt;Gastos, cuotas, avisos, chats, incidencias y votaciones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2f6fae;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="240" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" value="&lt;b style=&quot;font-size:16px&quot;&gt;API REST&lt;/b&gt;&lt;br&gt;[Contenedor: Java]&lt;br&gt;&lt;br&gt;Lógica de negocio, cuotas, votaciones y autenticación (JWT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2f6fae;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="240" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="wpf" value="&lt;b style=&quot;font-size:16px&quot;&gt;App WPF Administrador&lt;/b&gt;&lt;br&gt;[Contenedor: C#, WPF, MVVM]&lt;br&gt;&lt;br&gt;Propietarios, gastos, pagos, reuniones y estadísticas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2f6fae;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="240" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="db" value="&lt;b style=&quot;font-size:16px&quot;&gt;Base de datos&lt;/b&gt;&lt;br&gt;[Contenedor: MySQL]&lt;br&gt;&lt;br&gt;Usuarios, gastos, pagos, votos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#438dd5;strokeColor=#2f6fae;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="240" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="Consulta gastos y vota [Móvil]" style="endArrow=block;html=1;strokeWidth=2;endFill=1;" edge="1" parent="1" source="benef" target="android">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="Gestiona la comunidad [Escritorio]" style="endArrow=block;html=1;strokeWidth=2;endFill=1;" edge="1" parent="1" source="admin" target="wpf">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="HTTPS/JSON" style="endArrow=block;html=1;strokeWidth=2;endFill=1;" edge="1" parent="1" source="android" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="HTTPS/JSON" style="endArrow=block;html=1;strokeWidth=2;endFill=1;" edge="1" parent="1" source="wpf" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="Lee y escribe [ORM]" style="endArrow=block;html=1;strokeWidth=2;endFill=1;" edge="1" parent="1" source="api" target="db">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
