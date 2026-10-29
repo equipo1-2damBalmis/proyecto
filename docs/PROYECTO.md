@@ -66,6 +66,16 @@ La arquitectura de Comunify sigue un modelo cliente-servidor. Dos aplicaciones c
 ## Casos de Uso Principales
 
 ### Para Beneficiarios  (App Móvil)
+| Caso de Uso | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Inicio de Sesión** | Permitir al vecino autenticarse de forma segura en la aplicación móvil con sus credenciales. | Alta |
+| **Panel de Inicio** | Visualizar el saludo personalizado, el estado de cuenta actual y accesos directos a gastos y avisos. | Alta |
+| **Historial de Gastos** | Consultar el histórico de gastos de la comunidad organizado por meses y ver el desglose detallado (luz, agua, limpieza, etc.). | Alta |
+| **Sistema de Chats** | Comunicarse a través de canales fijos de mensajería organizados por categorías: Presidente, Bloque, Comunidad y Avisos. | Media |
+| **Informes de Recaudación** | Visualizar los informes mensuales de recaudación globales de la comunidad. | Media |
+| **Recibir Notificaciones** | Recibir notificaciones oficiales, avisos principales destacados y comunicados emitidos por la administración. | Alta |
+| **Participar en Votaciones** | Participar y emitir votos en consultas sobre reformas, mejoras o reparaciones en el edificio o urbanización. | Media |
+
 ### Para Administradores (App Escritorio)
 ---
 
