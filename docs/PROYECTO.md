@@ -4,7 +4,7 @@
 ### Título del Proyecto
 **Comunify**: Combina "Comunidad" y "Simplificar", queremos que sea más facíl controlar los gastos de la cominidad. 
 
-![Imagen introductiva](docs/Assets/imagen_corporativa.jpg){ style="display:block; margin:0 auto; width:80%;max-width:300px;" }
+![Imagen introductiva](Assets/imagen_corporativa.jpg){ style="display:block; margin:0 auto; width:80%;max-width:300px;" }
 
 ### Datos del Equipo
 - **Nombre del Proyecto:** Comunify
