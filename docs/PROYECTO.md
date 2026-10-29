@@ -77,7 +77,17 @@ La arquitectura de Comunify sigue un modelo cliente-servidor. Dos aplicaciones c
 | **Participar en Votaciones** | Participar y emitir votos en consultas sobre reformas, mejoras o reparaciones en el edificio o urbanización. | Media |
 
 ### Para Administradores (App Escritorio)
----
+
+| Caso de Uso | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Inicio de Sesión Seguro** | Permitir al administrador autenticarse en el sistema con credenciales seguras. | Alta |
+| **Gestión de Propietarios** | Consultar el listado de viviendas y propietarios, permitiendo altas, bajas y ver datos de contacto. | Alta |
+| **Registro de Gastos y Derramas** | Introducir las facturas mensuales de la comunidad desglosadas por conceptos (luz, agua, limpieza) y crear derramas extraordinarias. | Alta |
+| **Control de Pagos y Recibos** | Asignar las cuotas a los vecinos y marcar quién ha pagado y quién tiene recibos pendientes. | Alta |
+| **Validación de Justificantes** | Revisar los comprobantes de transferencia bancaria enviados por los propietarios para saldar sus deudas. | Media |
+| **Publicación de Avisos y Comunicados** | Redactar y enviar avisos oficiales que aparecerán en la pantalla principal y en los chats de la app móvil. | Alta |
+| **Creación y Cierre de Votaciones** | Publicar consultas sobre reformas o mejoras del edificio y consultar el recuento final de votos emitidos. | Media |
+| **Estadísticas e Informes Económicos** | Consultar métricas del estado económico de la comunidad (saldo disponible, morosidad acumulada y gastos por mes). | Baja |
 
 ### Riesgos y mitigación
 ---
