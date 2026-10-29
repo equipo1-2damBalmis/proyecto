@@ -48,6 +48,21 @@ Podemos observar que en las comunides de ubanizaciones y edificios resulta compl
 - **Administrador:** Es un `habitante / dueñ@ de una vivienda` que ejerce el rol de presidente de la comunidad que gestiona y 'modela' la plataforma a través de la aplicacion de escritorio. 
 ### Arquitectura general
 ---
+La arquitectura de Comunify sigue un modelo cliente-servidor. Dos aplicaciones cliente (móvil para vecinos y escritorio para el administrador) se comunican con un único servicio backend, que es el único que accede a la base de datos. Se representa mediante un diagrama de contenedores del modelo C4.
+
+![Diagrama de contenedores C4 de Comunify](Assets/comunify_c4.drawio.png)
+
+| Contenedor | Tecnología | Responsabilidad |
+| :--- | :--- | :--- |
+| **App Android Vecino** | Kotlin, Jetpack Compose (MVI) | Consultar gastos y cuotas, recibir avisos, chats, comunicar incidencias y votar. Usada por el Beneficiario. |
+| **App WPF Administrador** | C#, WPF (MVVM) | Gestionar propietarios y viviendas, registrar gastos y derramas, marcar pagos, convocar reuniones y ver estadísticas. Usada por el Administrador. |
+| **API REST** | Java | Lógica de negocio (cuotas, pagos, votaciones), autenticación con Sesiones o JWT y punto único de acceso a los datos. |
+| **Base de datos** | MySQL | Persistencia de usuarios, viviendas, gastos, pagos, incidencias y votaciones. |
+
+**Comunicación:**
+- Las apps cliente nunca acceden a la base de datos directamente; todo pasa por la API REST (HTTPS, JSON).
+- La API REST accede a MySQL mediante un ORM.
+
 ## Casos de Uso Principales
 
 ### Para Beneficiarios  (App Móvil)
