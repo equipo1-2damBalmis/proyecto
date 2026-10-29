@@ -13,17 +13,24 @@
   -  Andrea Sarmeinto Fornés (Hacedora)
   - Gor (Analista)
   - Lucas (Divergente)
-  - Izan (Armonizador)
+  - Izan Catalá Garcia (Armonizador)
   - Marina (Hacedora/Analista)
   - Marta (Hacedora/Analista)
 - **Curso:** 2ºDMA - IES Doctor Balmis 
 - **Fecha de inicio:** Octubre 2026
 
 ### Alineación con los Objetivos de Desarrollo Sostenible (ODS)
+
+Este proyecto se alinea directa y explícitamente con los siguientes Objetivos de Desarrollo Sostenible de las Naciones Unidas, tal como se requiere en la programación didáctica:
+
+
 ### Descripción del Problema
 ### Descripción de la Solución Propuesta
-### Actores y Roles
+**Comunify** es una solución software multiplataforma diseñada para servir de puente entre los habitantes del edificio y el presidente. El sistema constará de tres componentes principales, siguiendo la arquitectura definida en la programación:
 
+### Actores y Roles
+- **Beneficiario:** 
+- **Administrador:**
 ### Arquitectura general
 
 ## Casos de Uso Principales
@@ -59,7 +66,7 @@ Conexión de la App Android Jetpack Compose a la API REST real mediante Retrofit
 Implementación en la API REST de endpoints de registro y login con JWT, autenticación stateless, control de acceso por roles (DONANTE, BENEFICIARIO, ADMIN) y documentación interactiva con Swagger UI.
 3. **Lucas (Divergente) - Integración Full-Stack Escritorio:**
 Conexión de la App WPF a la API REST de forma segura mediante HttpClient y JWT, permitiendo la moderación de publicaciones y validación de ONGs en tiempo real contra el servidor.
-4. **Izan (Armonizador) - Ampliación Funcional Full-Stack (Geolocalización):**
+4. **Izan Catalá Garcia  (Armonizador) - Ampliación Funcional Full-Stack (Geolocalización):**
 Integración de Google Maps SDK en la App Android para búsqueda visual de cestas cercanas por radio de distancia y desarrollo de endpoints backend para filtrado geoespacial.
 
 **`Tambien tenemos a:`**
