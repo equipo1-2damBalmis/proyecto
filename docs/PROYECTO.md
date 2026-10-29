@@ -4,9 +4,10 @@
 ### Título del Proyecto
 **Comunify**: Combina "Comunidad" y "Simplificar", queremos que sea más facíl controlar los gastos de la cominidad. 
 
-![Imagen introductiva](Assets/imagen_corporativa.jpg){ style="display:block; margin:0 auto; width:80%;max-width:300px;" }
+![Imagen introductiva](Assets/imagen_corporativa.jpg)
 
 ### Datos del Equipo
+---
 - **Nombre del Proyecto:** Comunify
 - **Equipo:**
 - **Miembros del Equipo:**
@@ -20,30 +21,39 @@
 - **Fecha de inicio:** Octubre 2026
 
 ### Alineación con los Objetivos de Desarrollo Sostenible (ODS)
+---
 
 Este proyecto se alinea directa y explícitamente con los siguientes Objetivos de Desarrollo Sostenible de las Naciones Unidas, tal como se requiere en la programación didáctica:
 
 
 ### Descripción del Problema
+---
+Podemos observar que en las comunides de ubanizaciones y edificios resulta complicado llevar un seguimiento de los gastos de comunidad, observar quien ha pagado y quien no. Es complicado reunir a todos los propietarios para realizar reuniones y poder hablar dichos gastos y  problemas. Siempre hay gastos tardíos o simplemente la desconexión lleva a la desinformación. 
+
 ### Descripción de la Solución Propuesta
-**Comunify** es una solución software multiplataforma diseñada para servir de puente entre los habitantes del edificio y el presidente. El sistema constará de tres componentes principales, siguiendo la arquitectura definida en la programación:
+---
+**Comunify** es una solución software multiplataforma diseñada para servir de puente entre los habitantes del edificio y el presidente de la comunidad. El sistema constará de tres componentes principales, siguiendo la arquitectura definida en la programación:
 
 ### Actores y Roles
-- **Beneficiario:** 
-- **Administrador:**
+---
+- **Beneficiario:** Cualquier `habitante / dueñ@ de una vivienda` que tiene gastos relacionados directamente con la comunidad.
+- **Administrador:** Es un `habitante / dueñ@ de una vivienda` que ejerce el rol de presidente de la comunidad que gestiona y 'modela' la plataforma a través de la aplicacion de escritorio. 
 ### Arquitectura general
-
+---
 ## Casos de Uso Principales
+
 ### Para Beneficiarios  (App Móvil)
 ### Para Administradores (App Escritorio)
+---
 
 ### Riesgos y mitigación
+---
 ## Planificación aproximada Sprints por quincena
-
-
+---
 La planificación temporal sigue rigurosamente el marco establecido en la programación didáctica del módulo, dividiéndose en tres etapas: fase preparatoria inicial (semanas 1-8), fase de desarrollo colaborativo en equipo mediante **SCRUM** (Sprints 1 al 8, semanas 9 a 24) y fase de **desarrollo individual durante la Formación en Empresa (FE)** (semanas 25 a 32), culminando con la presentación final.
 
 ### Calendario de Sprints y Fases de Desarrollo
+---
 | Sprint  | Semanas | Fecha Inicio |     Fecha Fin      | Objetivo Principal                                    | Entregable Clave                                                                                                                                                                     |
 | :-----: | :-----: | :----------: | :----------------: | :---------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  **1**  |  9-10   |    09 nov    |       20 nov       | Prototipado UI/UX                                     | Prototipos navegables en Figma/Penpot de la App móvil (vistas de donante y beneficiario) y de la App de escritorio para administración.                                              |
@@ -57,7 +67,7 @@ La planificación temporal sigue rigurosamente el marco establecido en la progra
 | **FE**  |  25-28  |    15 mar    |       21 may       | Fase Formación en Empresa: Trabajo Individual         | Implementación de funcionalidades individuales avanzadas sin Scrum (evaluación con rúbrica individual por alumno).                                                                   |
 | **Fin** |  33-34  |    24 may    |       04 jun       | Cierre, entrega y defensa                             | Memoria técnica final en Markdown (PROYECTO.md y DISENO.md), vídeo demostrativo del producto (2-3 min) y defensa oral del proyecto.                                                  |
 ### Reparto de Funcionalidades Individuales (Fase FE)
-
+---
 Durante la estancia en empresa (FE), cada miembro de BalmisTech desarrolla de forma autónoma una de las propuestas excluyentes del catálogo oficial:
 
 1. **Andrea Sarminto Fornés (Hacedora) - Integración Full-Stack Android:**
