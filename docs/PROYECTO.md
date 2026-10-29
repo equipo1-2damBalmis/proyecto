@@ -91,6 +91,20 @@ La arquitectura de Comunify sigue un modelo cliente-servidor. Dos aplicaciones c
 
 ### Riesgos y mitigación
 ---
+| Riesgo | Mitigación |
+| :--- | :--- |
+| **Chat en tiempo real** | Requiere el uso de Flows y corrutinas en Kotlin junto con Firebase o WebSockets para la mensajería por canales (Presidente, Bloque, Comunidad y Avisos). |
+| **Notificaciones push** | Uso de Firebase Cloud Messaging (FCM) para enviar avisos, comunicados y recordatorios de pagos pendientes. |
+| **Integridad de las votaciones** | Control en el backend de un único voto por vivienda, con votaciones con fecha de cierre y recuento calculado solo por la API. |
+| **Errores en el cálculo de cuotas y derramas** | Centralizar los cálculos en la API REST según el coeficiente de cada vivienda y cubrirlos con tests unitarios. |
+| **Subida de justificantes de pago** | Limitar formatos (PDF/JPG/PNG) y tamaño de archivo, y almacenarlos de forma segura vinculados a cada recibo. |
+| **Protección de datos personales y económicos** | Comunicación por HTTPS, control de acceso por roles (VECINO, ADMIN) y cumplimiento del RGPD mostrando a cada vecino solo la información que le corresponde. |
+| **Complejidad JWT** | Taller extra + plantilla base o uso de sesiones. |
+| **Conflictos en el repositorio** | Trabajo en ramas por funcionalidad, avisar antes de trabajar en `main` y revisión antes de cada merge. |
+| **Retraso en integración** | Feature-flags para desactivar las partes no críticas (chat, estadísticas). |
+| **Scope creep** | Definición clara del **Producto Mínimo Viable** (MVP) priorizando el backlog: gastos, pagos y avisos primero. |
+| **Falta de experiencia** | Uso de IA para generación de código y resolución de dudas. |
+| **Coordinación de un equipo de 6 personas** | Reuniones semanales de seguimiento, reparto claro de tareas y comunicación por el grupo. |
 ## Planificación aproximada Sprints por quincena
 ---
 La planificación temporal sigue rigurosamente el marco establecido en la programación didáctica del módulo, dividiéndose en tres etapas: fase preparatoria inicial (semanas 1-8), fase de desarrollo colaborativo en equipo mediante **SCRUM** (Sprints 1 al 8, semanas 9 a 24) y fase de **desarrollo individual durante la Formación en Empresa (FE)** (semanas 25 a 32), culminando con la presentación final.
