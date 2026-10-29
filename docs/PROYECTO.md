@@ -65,7 +65,7 @@ La arquitectura de Comunify sigue un modelo cliente-servidor. Dos aplicaciones c
 
 ## Casos de Uso Principales
 
-### Para Beneficiarios  (App Móvil)
+### Para Vecinos  (App Móvil)
 | Caso de Uso | Descripción | Prioridad |
 | :--- | :--- | :--- |
 | **Inicio de Sesión** | Permitir al vecino autenticarse de forma segura en la aplicación móvil con sus credenciales. | Alta |
