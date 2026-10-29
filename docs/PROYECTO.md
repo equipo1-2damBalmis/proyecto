@@ -23,11 +23,7 @@
 ### Alineación con los Objetivos de Desarrollo Sostenible (ODS)
 ---
 
-Este proyecto se alinea directa y explícitamente con los siguientes Objetivos de Desarrollo Sostenible de las Naciones Unidas, tal como se requiere en la programación didáctica:
-
-**ODS 9 – Industria, innovación e infraestructura:** construir infraestructuras resilientes, promover una industrialización inclusiva y sostenible y fomentar la innovación.
-
-**ODS 10 – Reducción de las desigualdades:** reducir la desigualdad dentro de los países y entre ellos, garantizando la igualdad de oportunidades y la inclusión de todas las personas sin importar su edad, sexo, origen, religión o situación económica.
+El proyecto se alinea con el ODS 9, al aplicar la innovación tecnológica para modernizar la gestión de las comunidades, y con el ODS 10, al garantizar que todos los propietarios tengan el mismo acceso a la información y la misma capacidad de participar en las decisiones, sin importar si pueden asistir o no a las reuniones presenciales.
 
 
 ### Descripción del Problema
@@ -36,7 +32,13 @@ Podemos observar que en las comunides de ubanizaciones y edificios resulta compl
 
 ### Descripción de la Solución Propuesta
 ---
-**Comunify** es una solución software multiplataforma diseñada para servir de puente entre los habitantes del edificio y el presidente de la comunidad. El sistema constará de tres componentes principales, siguiendo la arquitectura definida en la programación:
+Comunify es una solución software multiplataforma diseñada para facilitar la gestión de comunidades de propietarios en edificios y urbanizaciones, centralizando el control de gastos, los pagos y la comunicación entre vecinos. El sistema constará de tres componentes principales, siguiendo la arquitectura definida en la programación:
+
+Aplicación Móvil para Vecinos (Android con Kotlin y Jetpack Compose): Será la herramienta principal para los propietarios. Permitirá consultar los gastos de la comunidad y el estado de sus cuotas, recibir avisos de pagos pendientes, ver el historial de pagos, comunicar incidencias (averías, limpieza, ruidos…) y participar en reuniones y votaciones online sin necesidad de reunir a todos físicamente.
+
+Aplicación de Escritorio para Administradores (WPF con C# y MVVM): Una herramienta de back-office para el presidente o el administrador de fincas. Permitirá gestionar propietarios y viviendas, registrar gastos y derramas, marcar qué vecinos han pagado y cuáles no, gestionar las incidencias, convocar reuniones y publicar actas, y obtener estadísticas sobre la situación económica de la comunidad (morosidad, gastos por mes, saldo disponible).
+
+Servicio Backend (API REST con Java): El cerebro del sistema. Gestionará toda la lógica de negocio (cálculo de cuotas, control de pagos, votaciones), la persistencia de datos en una base de datos MySQL, la autenticación de usuarios mediante Sesiones o JWT y la comunicación segura entre la aplicación móvil y la de escritorio.
 
 ### Actores y Roles
 ---
