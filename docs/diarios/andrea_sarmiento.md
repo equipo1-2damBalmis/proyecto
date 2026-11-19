@@ -69,7 +69,14 @@ Esta actividad se basaba en crear un proyecto que funcionase. Dividiendonos cada
 ## Definición del proyecto
 
 
-| :pencil:Actividad       | :calendar:Fecha | Sesión           | :hourglass_flowing_sand: Tiempo | :bulb:Objetivo de las tareas                                                                                                                             | :clipboard:Reflexión                                           |
-| ----------------------- | --------------- | ---------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| *Inicio Diario Trabajo* | 26/10/26        | :green_circle:S1 | 2h                              | Entder como funciona Markdown para poder generar nuetro diario de trabajo para el proyecto                                                               | No es complicado pero quiero intentar hacerlo lo mejor posible |
-| *defino un Proyecto*    | - / 10/26       | :white_circle:   | --                              | Definir, documentar y planificar un proyecto de desarrollo de software que esté alineado con los Objetivos de Desarrollo Sostenible (ODS) de la ONUramas | Ser conscientes de la dificultad de una aplicación real        |
+| :pencil:Actividad | :calendar:Fecha | Sesión | :hourglass_flowing_sand: Tiempo | :bulb:Objetivo de las tareas | :clipboard:Reflexión |
+|---|---|---|---|---|---|
+| *Inicio Diario Trabajo* | 26/10/26| :green_circle:S1 | 2h| Entder como funciona Markdown para poder generar nuetro diario de trabajo para el proyecto | No es complicado pero quiero intentar hacerlo lo mejor posible |
+| *defino un Proyecto*| - / 10/26 | :white_circle:   | -- | Definir, documentar y planificar un proyecto de desarrollo de software que esté alineado con los Objetivos de Desarrollo Sostenible (ODS) de la ONUramas | Ser conscientes de la dificultad de una aplicación real |
+
+## Fases de Desarrollo
+
+| :pencil:Actividad | :calendar:Fecha | Sesión | :hourglass_flowing_sand: Tiempo | :bulb:Objetivo de las tareas | :clipboard:Reflexión |
+|---|---|---|---|---|---|
+| *Inicio Diario Trabajo* | 26/10/26| :green_circle:S1 | 2h| Entder como funciona Markdown para poder generar nuetro diario de trabajo para el proyecto | No es complicado pero quiero intentar hacerlo lo mejor posible |
+| *defino un Proyecto*| - / 10/26 | :white_circle:   | -- | Definir, documentar y planificar un proyecto de desarrollo de software que esté alineado con los Objetivos de Desarrollo Sostenible (ODS) de la ONUramas | Ser conscientes de la dificultad de una aplicación real |
