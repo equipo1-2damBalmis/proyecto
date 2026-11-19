@@ -1,0 +1,85 @@
+//---- Prompt para Figma AI ----//
+
+Contexto general de la aplicación:
+Diseña las pantallas de una aplicación SaaS de gestión integral para comunidades 
+de vecinos (administración de fincas y cuotas vecinales). La interfaz debe ser limpia,
+moderna, confiable y de fácil lectura para perfiles no técnicos, utilizando un estilo 
+minimalista con tarjetas blancas, fondo gris muy claro (#F8FAFC), acentos en azul 
+corporativo (#1E40AF) y estados semánticos claros (verde para pagado/al día, ámbar 
+para pendiente, rojo para vencido). Usa tipografía sans-serif moderna (Inter o Plus 
+Jakarta Sans).
+
+Requerimientos de diseño responsivo:
+Genera dos variantes para cada vista:
+
+Escritorio (Desktop - 1440px): Con barra lateral de navegación izquierda fija y tablas 
+de datos detalladas.
+
+Móvil (Mobile - 390px): Con barra de navegación inferior (Bottom Navigation) y tarjetas 
+apiladas en lugar de tablas anchas.
+
+Pantalla 1: Vista "Historial de Gastos" — Rol Propietario (Vecino)
+Objetivo: Permitir al propietario consultar de forma clara los recibos y gastos individuales 
+que se le han repercutido mes a mes.
+
+Componentes a incluir:
+Encabezado: Título "Mi Historial de Gastos", selector de vivienda (en caso de tener más de 
+una propiedad, ej. "Portal B - 3ºA") y botón de "Descargar extracto anual (PDF)".
+
+Barra de filtros: Selector de Año (ej. 2026) y selector/carrusel horizontal de Meses 
+(Enero a Diciembre) con indicador visual de estado en cada mes.
+
+Tarjetas de resumen mensual (KPIs):
+
+Total asignado en el mes seleccionado (ej. 145,50 €).
+
+Estado del recibo (Badge: "Pagado el 05/11/2026" o "Pendiente de cobro").
+
+Saldo acumulado / Deuda pendiente (0,00 €).
+
+Desglose de conceptos repercutidos (Lista/Tabla):
+
+Cuota ordinaria mensual: (ej. 85,00 € - Coeficiente de participación 2,5%).
+
+Consumos individualizados: (ej. Agua caliente / Calefacción central - lectura anterior, 
+lectura actual e importe 35,50 €).
+
+Derramas extraordinarias: (ej. "Derrama 2/4: Rehabilitación fachada" - 25,00 €).
+
+Cada fila debe incluir un icono para ver o descargar el justificante/recibo individual.
+
+Pantalla 2: Vista "Historial de Gastos de la Comunidad" — Rol Administrador y Propietario 
+(Transparencia)
+Objetivo: Mostrar el libro mayor de gastos generales ejecutados por la comunidad, 
+permitiendo auditar en qué se gasta el presupuesto.
+
+Componentes a incluir:
+
+Encabezado: Título "Gastos de la Comunidad" y botón primario "+ Registrar nuevo gasto" 
+(visible en la versión de Administrador).
+
+Filtros y búsqueda: Buscador por proveedor o concepto, filtro por Mes/Trimestre y filtro 
+por Categoría (Mantenimiento, Suministros, Limpieza, Seguros, Obras/Derramas).
+
+Resumen financiero de la comunidad (KPIs superiores):
+
+Total gastado en el mes seleccionado.
+
+Comparativa frente al presupuesto mensual (ej. 3.420,00 € de 4.000,00 € presupuestados 
+con barra de progreso).
+
+Saldo actual en cuenta bancaria de la comunidad.
+
+Tabla / Listado maestro de gastos comunitarios:
+
+Fecha de factura/pago.
+
+Concepto y Proveedor (ej. "Mantenimiento mensual ascensor - OTIS").
+
+Categoría (etiqueta de color).
+
+Método de reparto (ej. "Por coeficiente" o "Partes iguales").
+
+Importe total (con IVA incluido).
+
+Acciones: Icono de "Ver factura adjunta (PDF)" y menú de edición (solo para Administrador).
